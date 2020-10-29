@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
+#!C:\Users\omi\AppData\Local\Programs\Python\Python39\python.exe
+# -*- coding: utf-8 -*-
 
-@app.route('/')
-def index():
-    return "hello world!"
 
-if __name__ == "__main__":
-    app.run(debug=True)
+print("Content-Type: text/html\n")
+print("Hello World")
